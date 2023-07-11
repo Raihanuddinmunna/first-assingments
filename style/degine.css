@@ -1,0 +1,62 @@
+/* Header part: */
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(223, 125, 174);
+    padding: 40px;
+    text-align: center;
+    margin: 50px;
+}
+
+
+/* Instragram part: */
+/* start>> */
+.insta{
+    text-align: center;
+}
+.pic{
+    display: flex;
+    justify-content: space-around;
+}
+/* finished>> */
+/* Get the latest deal part: */
+/* start>> */
+.deals{
+    height: 400px;
+    border-radius: 30px;
+    border-width: 200px;
+    margin: 130px 70px;
+    background-image: url('../Flower Asset/Rectangle\ 9.png');
+    background-position: center;
+}
+.gets{
+    padding: 8px;
+    text-align: center;
+    margin-top: 10px;
+    font-size: larger;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.mail{
+    width: 320px;
+    height: 30px;
+}
+/* finished>> */
+
+
+
+/* Footer part: */
+.footer{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    height: 700px;
+    margin: 130px 50px;
+    padding-top: 15px;
+}
+span{
+    color: rgb(181, 41, 111);
+}
