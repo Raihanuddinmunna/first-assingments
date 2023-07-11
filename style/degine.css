@@ -1,12 +1,67 @@
 /* Header part: */
+/* start>> */
 .header{
     display: flex;
     justify-content: center;
-    background-color: rgb(223, 125, 174);
+    background-color: rgb(236, 151, 194);
     padding: 40px;
     text-align: center;
     margin: 50px;
 }
+/* finished>> */
+
+
+
+/* Our Featured Flower part: */
+/* start>> */
+.flower{
+    text-align: center;
+    border: 100px;
+    border-color:  rgb(202, 91, 147);
+    margin: 130px 70px;
+}
+.feauter{
+    margin: 15px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+#flw1{
+    border-top: 30px;
+    background-color: #f9d0d8;
+    border-radius: 130px 130px 0px 0px;
+}
+#flw2{
+    border-top: 30px;
+    background-color: rgb(144,231,231);
+    border-radius: 130px 130px 0px 0px;
+}
+#flw3{
+    border-top: 30px;
+    background-color: rgb(128,193,171);
+    border-radius: 130px 130px 0px 0px;
+}
+.color{
+    background-color: rgb(146, 233, 208);
+}
+/* finished>> */
+
+
+
+/* Hot deal part: */
+/* start>> */
+.deal{
+    display: flex;
+    padding-left: 40px;
+    padding-top: 15px;
+    border: 10px;
+    margin: 15px 25px;
+    justify-content: space-around;
+    background-color:  rgb(202, 91, 147);
+    flex-direction: row-reverse;
+}
+/* finished>> */
+
 
 
 /* Instragram part: */
@@ -19,6 +74,9 @@
     justify-content: space-around;
 }
 /* finished>> */
+
+
+
 /* Get the latest deal part: */
 /* start>> */
 .deals{
@@ -41,10 +99,12 @@
     gap: 20px;
 }
 .mail{
-    width: 320px;
-    height: 30px;
+    width: 400px;
+    height: 50px;
 }
 /* finished>> */
+
+
 
 /* Bouqe part: */
 /* start>> */
@@ -58,9 +118,11 @@
     text-align: center;
     font-size: xx-large;
 }
+/* finished>> */
 
 
 /* Footer part: */
+/* start>> */
 .footer{
     text-align: center;
     background-color: black;
@@ -71,4 +133,17 @@
 }
 span{
     color: rgb(181, 41, 111);
+}
+/* finished>> */
+
+
+/* Common part: */
+.btn{
+    background-color:rgb(228, 90, 90);
+    color: beige;
+    font-size: x-large;
+}
+main{
+    padding: 10px;
+    margin: 10px 15px;
 }
